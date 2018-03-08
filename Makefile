@@ -1,5 +1,5 @@
 CPPFLAGS = -g -std=c++11
-LIBS =
+LIBS = -lm
 
 main : test.o
 	g++ ${CPPFLAGS} -o main test.o ${LIBS}
